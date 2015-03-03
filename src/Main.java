@@ -23,10 +23,11 @@ public class Main {
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
         Transaction cashSale = mondaySales.largestCashSale();
         if (cashSale != null) {
-            System.out.println("Largest Cash Sale: $" + cashSale.getTotal() + " for " + cashSale.getDescription() + " (" + cashSale.getNumItems() + " pieces)");
+            System.out.println("Largest Cash Sale: $" + cashSale.getTotal() + " for " + cashSale.getDescription() + " (" + cashSale.getNumItems() + " pieces)"); //40.5
         }
-        System.out.println("Transaction Average:  " + mondaySales.findTransactionAverage());
-        System.out.println("Reasons for Returns:  " + mondaySales.getReturnReasons());
+        System.out.println("Transaction Average:  " + mondaySales.findTransactionAverage()); //27.903833333335 ish
+        System.out.println("Reasons for Returns:  " + mondaySales.getReturnReasons());       //[Poor Fit, Damaged Collars, Wrong Color]
         */
+
     }
 }
