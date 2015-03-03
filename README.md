@@ -1,4 +1,4 @@
-#Department (FRQ - Inheritance) 
+#Department Store (FRQ - Inheritance)
 
 ![Shopper](dept_store.jpg)
 
