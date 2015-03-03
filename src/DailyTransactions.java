@@ -15,10 +15,10 @@ public class DailyTransactions {
         return date;
     }
 
-    /*
-     * Pre-condition: allTransactions contains the day's transactions,
+    /**
+     * @Precondition: allTransactions contains the day's transactions,
      *  each of which may be a Sale or a Return.
-     * Post-condition: An ArrayList of all the reasons for returning an
+     * @Postcondition: An ArrayList of all the reasons for returning an
      *  item is returned.
      */
     public ArrayList<String> getReturnReasons() {
@@ -27,10 +27,10 @@ public class DailyTransactions {
         return null; //remove this line
     }
 
-    /*
-     * Pre-condition: allTransactions contains the day's transactions,
+    /**
+     * @Precondition: allTransactions contains the day's transactions,
      *  each of which may be a Sale or a Return.
-     * Post-condition: the largest cash sale is returned. If there are
+     * @Postcondition: the largest cash sale is returned. If there are
      *  no cash sales, null is returned
      */
     public Transaction largestCashSale() {
@@ -39,10 +39,10 @@ public class DailyTransactions {
         return null; //remove this line
     }
 
-    /*
-     * Pre-condition: allTransactions contains the day's transactions,
+    /**
+     * @Precondition: allTransactions contains the day's transactions,
      *  each of which may be a Sale or a Return.
-     * Post-condition: Average of day's transactions returned.
+     * @Postcondition: Average of day's transactions returned.
      */
     public double findTransactionAverage() {
         /* part d */
